@@ -14,7 +14,7 @@ angular
     .factory('tuktukService', tuktukService);
 
 function tuktukService($resource) {
-  var url = 'https://campaign.gotuktuk.in/rest/o/v1/campaign/C123/';
+  var url = 'https://campaign.gotuktuk.in/rest/o/v1/campaign/URBANGUMTI201610/';
     return $resource(
         "",
         {id:"@id", mobile:"@mobile"},
